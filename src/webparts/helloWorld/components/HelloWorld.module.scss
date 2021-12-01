@@ -1,0 +1,8 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.helloWorld {
+    :global {
+      //Import hTWOo styles so they are available to our controls
+      @import 'node_modules/@n8d/htwoo-core/lib/sass/style.prod';
+  }
+}
